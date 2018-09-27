@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS Bucketlist;
+
+CREATE TABLE IF NOT EXISTS Bucketlist.tbl_posts(user_id INT NOT NULL AUTO_INCREMENT, name VARCHAR(45) NOT NULL, posts VARCHAR(140) NOT NULL, date datetime NULL, PRIMARY KEY (user_id));
+
